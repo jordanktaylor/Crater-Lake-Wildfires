@@ -47,4 +47,4 @@ I then created XYZ tiles using the following settings.
 ![Export Settings](graphics/xyz-tiles.PNG)  
 *Export Settings*
 
-The final map and website was created at *http://127.0.0.1:5500/index.html*
+The final map and website were created at *http://127.0.0.1:5500/index.html*
