@@ -1,4 +1,0 @@
-# Crater-Lake-Wildfires
-
-
-
