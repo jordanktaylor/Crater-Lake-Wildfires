@@ -7,16 +7,40 @@ I visited Oregon on vacation in August of 2024 and one of the highlights of the 
  I used QuickOSM to create a perimeter around the edge of the lake, and then created a 5-mile radius line from that perimeter using the Buffer tool. I narrowed down the data set to what was inside of that 5-mile perimeter using the Intersect function. I went through the documentation of the wildfire data set and saw a further break down of the Fire_Size_Class attribute pertaining to acreage values.
 
  ![Fire_Size_Class value breakdown from original data's documentation](graphics/class-details.PNG)
+ *Fire_Size_Class value breakdown from original data's documentation*
+
+
+
+
 
  I used this breakdown to stylize the symbology of the different wildfires around Crater Lake
 
  ![Rule-based categorization](graphics/symbol-rules.PNG)
+ *Rule-based categorization*
+
+
+
+
 
  I duplicated my narrowed-down data set and removed all symbols so they didn't appear on the map. I chose "Fire_Size_Class" and "Discovery_Date" as the two variables I wanted to be displayed as the user zooms in.
 
  ![Chosen attributes for display and the formatting](graphics/wildfire-labels.PNG)
+ *Chosen attributes for display and the formatting*
+
+
+
+
 
  I set the rendering for these labels to only appear between zoom levels 1:18056 (z15) and 1:2257 (z18).
 
 ![Rendering levels](graphics/rendering.PNG)
+*Rendering levels*
+
+
+
+
+I then created XYZ tiles using the following settings.
+
+![Export Settings](graphics/xzy-tiles.PNG)
+*Export Settings*
 
